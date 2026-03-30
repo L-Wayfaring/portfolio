@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ashraf — Backend Developer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home" class="nav-logo">A<span>.</span>shraf</a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow">Backend Developer · Python · Django</div>
+      <h1 class="hero-name">Mohammed<br><em>Ashraf</em></h1>
+      <p class="hero-sub">CSE Student · Chattogram, Bangladesh</p>
+      <blockquote class="hero-tagline">
+        "Building the invisible architecture that makes the digital world work — one clean API at a time."
+      </blockquote>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-light">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="photo-card">
+        <div class="avatar-wrap">
+          <img src="ashraf.jpeg" alt="" width="100%" height="120%">
+        </div>
+        <div class="photo-name">Mohammed Ashraf</div>
+        <div class="photo-role">Backend Developer</div>
+        <div class="photo-loc">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+          Chattogram, BD
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about-inner">
+    <h2 class="section-title">Who I <em>Am</em></h2>
+    <div class="about-grid">
+
+      <div>
+        <div class="stats-grid">
+          <div class="stat-box"><div class="stat-num">3+</div><div class="stat-label">Years Coding</div></div>
+          <div class="stat-box"><div class="stat-num">10+</div><div class="stat-label">Projects Built</div></div>
+          <div class="stat-box"><div class="stat-num">IIUC</div><div class="stat-label">University</div></div>
+          <div class="stat-box"><div class="stat-num">CTG</div><div class="stat-label">Chattogram, BD</div></div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-tag">Education</div>
+          <div class="edu-degree">B.Sc. in Computer Science &amp; Engineering</div>
+          <div class="edu-school">International Islamic University Chittagong (IIUC)</div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <p>I'm Ashraf, a backend developer and CSE student with a deep focus on building robust, scalable systems. I specialise in Python and Django — crafting APIs and web applications that are clean under the hood, not just on the surface.</p>
+        <p>Based in Chattogram, Bangladesh, I bring discipline and curiosity to every project. Whether designing database schemas, building RESTful APIs, or contributing to open-source, I approach each challenge with a focus on clarity, performance, and maintainability.</p>
+        <p>Beyond code, I'm a music enthusiast and avid gamer — passions that keep my creativity sharp and my thinking systematic. I believe great software, like a great composition, is both functional and elegant.</p>
+        <div class="tags">
+          <span class="tag">🎮 Gaming</span>
+          <span class="tag">🎵 Music</span>
+          <span class="tag">⚙️ Open Source</span>
+          <span class="tag">🐍 Python</span>
+          <span class="tag">🌐 Web Dev</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Selected <em>Works</em></h2>
+
+  <div class="projects-grid">
+    <article class="proj-card">
+      <div class="proj-num">001</div>
+      <h3 class="proj-title">EduTrack API</h3>
+      <p class="proj-desc">A full-featured RESTful API for a university student management system — handling enrollment, grade tracking, course scheduling, and faculty management with JWT-based authentication and role-based permissions.</p>
+      <div class="proj-techs">
+        <span class="proj-tech">Django</span>
+        <span class="proj-tech">DRF</span>
+        <span class="proj-tech">PostgreSQL</span>
+        <span class="proj-tech">JWT</span>
+      </div>
+      <a href="#" class="proj-link">View Project →</a>
+    </article>
+
+    <article class="proj-card">
+      <div class="proj-num">002</div>
+      <h3 class="proj-title">GameVault</h3>
+      <p class="proj-desc">A personal game library management web app. Users can track their collection, wishlist, and playtime stats. Features a Django backend with a clean REST API and IGDB integration for real game metadata.</p>
+      <div class="proj-techs">
+        <span class="proj-tech">Django</span>
+        <span class="proj-tech">SQLite</span>
+        <span class="proj-tech">REST API</span>
+        <span class="proj-tech">Python</span>
+      </div>
+      <a href="#" class="proj-link">View Project →</a>
+    </article>
+
+    <article class="proj-card">
+      <div class="proj-num">003</div>
+      <h3 class="proj-title">BlogNest</h3>
+      <p class="proj-desc">A multi-author blogging platform with a Django backend supporting Markdown content, category tagging, comment threads, and an admin panel. Deployed on a VPS with Nginx &amp; Gunicorn for production performance.</p>
+      <div class="proj-techs">
+        <span class="proj-tech">Django</span>
+        <span class="proj-tech">Markdown</span>
+        <span class="proj-tech">Nginx</span>
+        <span class="proj-tech">Gunicorn</span>
+      </div>
+      <a href="#" class="proj-link">View Project →</a>
+    </article>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="skills-inner">
+    <h2 class="section-title">My <em>Expertise</em></h2>
+
+    <div class="skills-columns">
+
+      <div>
+        <div class="skills-col-title">Technical Skills</div>
+
+        <div class="skill-item bar-90">
+          <div class="skill-top"><span class="skill-name">Python</span><span class="skill-pct">90%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item bar-85">
+          <div class="skill-top"><span class="skill-name">Django / DRF</span><span class="skill-pct">85%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item bar-80">
+          <div class="skill-top"><span class="skill-name">REST API Design</span><span class="skill-pct">80%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item bar-78">
+          <div class="skill-top"><span class="skill-name">PostgreSQL / SQLite</span><span class="skill-pct">78%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item bar-75">
+          <div class="skill-top"><span class="skill-name">Git &amp; Version Control</span><span class="skill-pct">75%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item bar-70">
+          <div class="skill-top"><span class="skill-name">Linux / Shell</span><span class="skill-pct">70%</span></div>
+          <div class="skill-track"><div class="skill-fill"></div></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="skills-col-title">Soft Skills</div>
+
+        <div class="soft-item">
+          <div class="soft-dot"></div>
+          <span class="soft-name">Problem Solving</span>
+          <div class="soft-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+          </div>
+        </div>
+        <div class="soft-item">
+          <div class="soft-dot"></div>
+          <span class="soft-name">Attention to Detail</span>
+          <div class="soft-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+          </div>
+        </div>
+        <div class="soft-item">
+          <div class="soft-dot"></div>
+          <span class="soft-name">Team Collaboration</span>
+          <div class="soft-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div>
+          </div>
+        </div>
+        <div class="soft-item">
+          <div class="soft-dot"></div>
+          <span class="soft-name">Communication</span>
+          <div class="soft-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div>
+          </div>
+        </div>
+        <div class="soft-item">
+          <div class="soft-dot"></div>
+          <span class="soft-name">Time Management</span>
+          <div class="soft-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div>
+          </div>
+        </div>
+        <div class="soft-item">
+          <div class="soft-dot"></div>
+          <span class="soft-name">Continuous Learning</span>
+          <div class="soft-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-inner">
+    <h2 class="section-title">Let's <em>Connect</em></h2>
+
+    <div class="contact-layout">
+
+      <div>
+        <p class="contact-intro">Whether you have a project in mind, want to collaborate, or simply want to say hello — my inbox is always open.</p>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#C09A2F" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-value"><a href="mailto:eng99ashraf@gmail.com">eng99ashraf@gmail.com</a></div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#C09A2F" stroke-width="1.5">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <div class="ci-label">Location</div>
+            <div class="ci-value">Chattogram, Bangladesh</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#C09A2F" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div>
+            <div class="ci-label">Availability</div>
+            <div class="ci-value">Open to Collaborations &amp; Projects</div>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="#" class="social-btn">Facebook</a>
+          <a href="#" class="social-btn">LinkedIn</a>
+          <a href="#" class="social-btn">Instagram</a>
+        </div>
+      </div>
+
+      <form action="#" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="John" />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Doe" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Project collaboration..." />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me about your project or idea..."></textarea>
+        </div>
+        <button type="submit">Send Message →</button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">A<span>.</span>shraf</div>
+    <div class="footer-copy">© 2025 Mohammed Ashraf · Chattogram, BD</div>
+  </div>
+</footer>
+
+</body>
+</html>
